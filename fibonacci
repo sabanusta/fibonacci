@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public  class Main {
+  
+      
+    public static void main(String[] args) {
+        int a,b1=0,c2=1,d3;
+
+         Scanner inp = new Scanner(System.in);
+         System.out.print("Eleman sayısını giriniz: ");
+         a = inp.nextInt();
+
+
+         for (int i = 2  ;i<=a;i++){
+             d3=b1+c2;
+             System.out.print(b1 + " + " +c2 + " = "+d3);
+             b1=c2;
+             c2=d3;
+             System.out.println();
+         }
+
+     }
+}
+
+    
